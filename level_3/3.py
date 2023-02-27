@@ -1,8 +1,8 @@
 from constants import ___
-from typing import Any
+from collections.abc import Callable
 
 
-def create_user(user_name: str, user_age: int, after_created: Any) -> None:
+def create_user(user_name: str, user_age: int, after_created: Callable[[int], None]) -> None:
     pass
 
 
